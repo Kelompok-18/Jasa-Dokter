@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administrator</title>
+  
+  <!-- CSS Bootscrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- JS Bootscrap-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<!-- bootstrap table -->
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css"><!-- bootstrap css -->
+<script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script><!-- bootstrap java script -->
+<!-- ukuran logo/feather -->
+<style>
+/*text center*/
+
+/*div center*/
+
+
+#p1 {background-color:#ff0000;}
+#p2 {background-color:#00FFFF;}
+
+.navbar-custom { 
+            background-color: #87CEEB; 
+        } 
+        /* Modify brand and text color */ 
+          
+        .navbar-custom .navbar-brand, 
+        .navbar-custom .navbar-text { 
+            color: white; 
+        }
+
+.vertical { 
+            border-left: 1px solid black; 
+            height: 50px; 
+            position:static; 
+            left: 50%; 
+        } 
+  body {
+    background-color: white;
+  }
+  .feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+  }
+</style>
+
+<style scope="hero-view">
+    /* Modify the background color */
+           
+.hero-title {
+    color: #FFFFFF;
+        font-size: 38px;
+        font-weight: 900;
+        text-align: left;
+        margin-bottom: 0;
+}
+
+{
+  font-family: 'LatoWeb';
+}
+
+.hero-text {
+    color: #ffffff;
+        font-size: 26px;
+        letter-spacing: 0.9px;
+        line-height: 27px;
+        margin-top: 0;
+        font-weight: 100;
+}
+.hero-content {
+    width: 100%;
+        max-width: 1024px;
+        text-align: left;
+}
+.hero-content-inner {
+    padding: 180px 0 75px 0;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 500px;
+}
+</style>
+
+</head>
+<!-- start bar atas -->
+<body>
+    <!-- Bar Atas -->
+    <nav class="navbar-expand-lg navbar-light bg-light border rounded"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i data-feather="smartphone"></i>
+              Download Butuhdokter App
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- Bar Atas1 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
+            
+        <img src="img/butuhdokter3.png">
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link ml-3" href="#">
+                  
+                </a>
+              </li>
+              <form class="form-inline waves-light"style="width: 100%;"mdbRippleRadius>
+                <input class="form-control"style="width: 80%;"type="text"placeholder="Cari di Butuhdokter">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                <i data-feather="search"></i>
+                </button>
+                </form>
+            </ul>
+                
+            <ul class="navbar-nav mr-1">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                      Cari Dokter
+                    </a>
+                  </li>
+            </ul>
+
+            <ul class="navbar-nav mr-1">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">
+                      Info Kesehatan
+                    </a>
+                  </li>
+            </ul>
+
+            <ul class="navbar-nav mr-1">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                      Tentang Kami
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mr-1">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                      Hubungi Kami
+                    </a>
+                </li>
+            </ul>
+            
+            <div class = "vertical"></div>
+
+            <div> 
+            <button type="submit" class="btn btn-outline-primary ml-3">Masuk</button>
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-primary ml-3">Daftar</button>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- batas navbar1 -->
+    
+    <nav class="navbar-expand-xlg navbar-custom"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
+        <div class="hero">
+        <div class="container-hero">
+            <div class="hero-content">
+                <div class="hero-content-inner" style="background-image: url(img/dokterf.png); px-5">
+            <h1 class="hero-title px-5 px-5">Atur Janji Jadi Mudah</h1>
+            <h2 class="hero-text px-5">Layanan Booking Mempermudah Masyarakat</h2>
+            <form class="form-inline waves-light px-5 "style="width: 100%;"mdbRippleRadius>
+                <input class="form-control"style="width: 60%;"type="text"placeholder="Cari Dokter, Rumah Sakit, Spesialis, dll.">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">
+                <i data-feather="search"></i>
+                Cari
+                </button>
+                </form>
+            <!-- kotak isi -->
+        </div>
+        </div>
+        </div>
+        </div>
+        </nav>
+            
+
+
+        <!-- batas navbar2 -->
+
+        <div class="container">
+            <h1 class="mt-3">Dashboard</h1><!-- mt-3(space dari navbar ke dasboard agar tidak menempel pada navbar(m=margin,t=margin top,3=margin/padding/sspacer),link : www.getbootstrap.com/docs/4.5/utilities/spacing/ ) -->
+            
+            <hr><!-- garis horizontal -->
+            <!-- kotak isi -->
+            
+            <div class="row mb-4">
+              <div class="col-sm mx-3 px-5 py-3 border rounded"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+                <div class="row"><!-- row untuk gambar -->
+                  <div class="col-sm">
+                    <h5 class="my-2">Customers</h5>
+                    <h4 class="text-success">554</h4>
+                  </div>
+
+                  <div class="col-sm text-right">
+                    <img src="img/person.svg" width="84" height="84">
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-sm mx-3 px-5 py-3 border rounded"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+                <div class="row"><!-- row untuk gambar -->
+                  <div class="col-sm">
+                    <h5 class="my-2">Sales</h5>
+                    <h4 class="text-success">$16,356</h4>
+                  </div>
+
+                  <div class="col-sm text-right">
+                    <img src="img/money.svg" width="84" height="84">
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-sm mx-3 px-5 py-3 border rounded"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+                <div class="row"><!-- row untuk gambar -->
+                  <div class="col-sm">
+                    <h5 class="my-2">Performance</h5>
+                    <h4 class="text-success">208%</h4>
+                  </div>
+
+                  <div class="col-sm text-right">
+                    <img src="img/chart.svg" width="84" height="84">
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            
+            <div class="row mb-4">
+              <div class="col-sm mx-3 border rounded"><!-- kolom 1 -->
+                <h4 class="my-2">Invoice</h4>
+                <form class="pb-3"><!-- kotak invoice -->
+                  <div class="form group">
+                    <label for="inputInvoiceNo">Invoice No</label>
+                    <input type="text" class="form-control" id="InputInvoiceNo" aria-describedby="invoiceNoHelp">
+                    <small id="invoiceNoHelp" class="form-text text-muted">INV-##/UNTAR/MM/YYYY</small>
+                  </div>
+
+                  <div class="form group">
+                    <label for="inputNotes">Notes</label>
+                    <input type="text" class="form-control" id="inputNotes">
+                  </div>
+
+                  <button type="submit" class="btn btn-primary mt-3">Save</button>
+                </form>
+              </div>
+            </div>
+      
+            <div class="row mb-4">
+              <div class="col-sm mx-3"><!-- kolom 1 -->
+                <h4 class="my-2">Customers</h4>
+                <table class="table table-striped" data-toggle="table">
+                  <thead><!--header-->
+                    <th data-sortable="true">No</th><!-- supaya bisa di sorting/diurutkan data dari urutan angka/huruf -->
+                    <th data-sortable="true">Full Name</th>
+                    <th data-sortable="true">Email</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>John Doe</td>
+                      <td>john.doe@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Jane Doe</td>
+                      <td>jane.doe@gmail.com</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace()
+    </script>
+    </body>
+    </html>
+
+
