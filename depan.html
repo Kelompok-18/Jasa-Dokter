@@ -16,76 +16,8 @@
 <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css"><!-- bootstrap css -->
 <script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script><!-- bootstrap java script -->
 <!-- ukuran logo/feather -->
-<style>
-/*text center*/
 
-/*div center*/
-
-
-#p1 {background-color:#ff0000;}
-#p2 {background-color:#00FFFF;}
-
-.navbar-custom { 
-            background-color: #87CEEB; 
-        } 
-        /* Modify brand and text color */ 
-          
-        .navbar-custom .navbar-brand, 
-        .navbar-custom .navbar-text { 
-            color: white; 
-        }
-
-.vertical { 
-            border-left: 1px solid black; 
-            height: 50px; 
-            position:static; 
-            left: 50%; 
-        } 
-  body {
-    background-color: white;
-  }
-  .feather {
-    width: 16px;
-    height: 16px;
-    vertical-align: text-bottom;
-  }
-</style>
-
-<style scope="hero-view">
-    /* Modify the background color */
-           
-.hero-title {
-    color: #FFFFFF;
-        font-size: 38px;
-        font-weight: 900;
-        text-align: left;
-        margin-bottom: 0;
-}
-
-{
-  font-family: 'LatoWeb';
-}
-
-.hero-text {
-    color: #ffffff;
-        font-size: 26px;
-        letter-spacing: 0.9px;
-        line-height: 27px;
-        margin-top: 0;
-        font-weight: 100;
-}
-.hero-content {
-    width: 100%;
-        max-width: 1024px;
-        text-align: left;
-}
-.hero-content-inner {
-    padding: 180px 0 75px 0;
-        background-repeat: no-repeat;
-        background-position: bottom right;
-        background-size: 500px;
-}
-</style>
+<link rel="stylesheet" href="depan.css">
 
 </head>
 <!-- start bar atas -->
@@ -184,11 +116,11 @@
         <div class="hero">
         <div class="container-hero">
             <div class="hero-content">
-                <div class="hero-content-inner" style="background-image: url(img/dokterf.png); px-5">
+                <div class="hero-content-inner" style="background-image: url(img/dokterf.png);">
             <h1 class="hero-title px-5 px-5">Atur Janji Jadi Mudah</h1>
             <h2 class="hero-text px-5">Layanan Booking Mempermudah Masyarakat</h2>
-            <form class="form-inline waves-light px-5 "style="width: 100%;"mdbRippleRadius>
-                <input class="form-control"style="width: 60%;"type="text"placeholder="Cari Dokter, Rumah Sakit, Spesialis, dll.">
+            <form class="form-inline waves-light px-5"style="width: 100%;"mdbRippleRadius><!--width=ukuran bar-->
+                <input class="form-control ml-5"style="width: 60%;"type="text"placeholder="Cari Dokter, Rumah Sakit, Spesialis, dll.">
                 <button class="btn btn-success my-2 my-sm-0" type="submit">
                 <i data-feather="search"></i>
                 Cari
