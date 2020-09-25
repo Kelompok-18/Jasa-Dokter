@@ -1,0 +1,88 @@
+/*text center*/
+
+/*div center*/
+
+#p1 {background-color:#ff0000;}
+#p2 {background-color:#00FFFF;}
+
+.navbar-custom { 
+            background-color: #87CEEB; 
+        } 
+        /* Modify brand and text color */ 
+          
+        .navbar-custom .navbar-brand, 
+        .navbar-custom .navbar-text { 
+            color: white; 
+        }
+
+.vertical { 
+            border-left: 1px solid black; 
+            height: 50px; 
+            position:static; 
+            left: 50%; 
+        } 
+  body {
+    background-color: white;
+  }
+  .feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+  }
+  /*-------------------------------------------*/
+      /* Modify the background color */
+           
+      .hero-title {
+        color: #FFFFFF;
+            font-size: 38px;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 0;
+            margin-right: 800px;
+    }
+    
+    *{
+      font-family: 'LatoWeb';
+    }
+    
+    .hero-text {
+        color: #ffffff;
+            font-size: 26px;
+            letter-spacing: 0.9px;
+            line-height: 27px;
+            margin-top: 0;
+            font-weight: 100;
+            text-align: center;
+            margin-right: 665px;
+    }
+    .hero-content {
+          width: 100%;
+            max-width: 1450px; /*set align img*/
+            text-align: left;
+    }
+    .hero-content-inner {
+            padding: 180px 0 75px 80px;/*tata letak box*/
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-size: 550px;
+    }
+
+    .button.link.button {
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      border: 0;
+      border-radius: 3px;
+      color: #ff0000;
+    }
+
+    .form-control {
+      /*
+      height: 55px;
+      width: 610px;
+      border-radius: 5px;
+      background-color: rgba(255,255,255,1);
+      position:relative;
+      */
+      margin-right: 500;
+    }
