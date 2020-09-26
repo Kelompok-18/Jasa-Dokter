@@ -33,7 +33,20 @@
   }
   /*-------------------------------------------*/
       /* Modify the background color */
-           
+
+      .hero_login {
+        background:#87CEFA;
+              background: -moz-linear-gradient(to left,#ADD8E6,#87CEFA);
+              /* // */ background: -webkit-linear-gradient(to left, #ADD8E6 0%,#87CEFA 100%);
+              background: linear-gradient(to left,#ADD8E6, #87CEFA);
+              filter: progid:DXImageTransform.Microsoft.gradient(
+    startColorstr='#ADD8E6', endColorstr='#87CEFA',GradientType=1 );
+      }
+  
+      .container-hero {
+        margin: 0 auto;
+      }
+      
       .hero-title {
         color: #FFFFFF;
             font-size: 38px;
@@ -88,3 +101,6 @@
       */
       margin-right: 500;
     }
+
+
+    /* masuk css */

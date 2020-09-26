@@ -3,20 +3,20 @@
 
 /*div center*/
 
-
+/*
 #p1 {background-color:#ff0000;}
 #p2 {background-color:#00FFFF;}
 
 .navbar-custom { 
             background-color: #87CEEB; 
-        } 
+        } */
         /* Modify brand and text color */ 
-          
+          /*
         .navbar-custom .navbar-brand, 
         .navbar-custom .navbar-text { 
             color: white; 
         }
-
+*/
 .vertical { 
             border-left: 1px solid black; 
             height: 50px; 
@@ -45,6 +45,19 @@
     
     *{
       font-family: 'LatoWeb';
+    }
+
+    .hero {
+      background:#87CEFA;
+            background: -moz-linear-gradient(to left,#ADD8E6,#87CEFA);
+            /* // */ background: -webkit-linear-gradient(to left, #ADD8E6 0%,#87CEFA 100%);
+            background: linear-gradient(to left,#ADD8E6, #87CEFA);
+            filter: progid:DXImageTransform.Microsoft.gradient(
+  startColorstr='#ADD8E6', endColorstr='#87CEFA',GradientType=1 );
+    }
+
+    .container-hero {
+      margin: 0 auto;
     }
     
     .hero-text {

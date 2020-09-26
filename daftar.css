@@ -1,0 +1,16 @@
+.vertical { 
+    border-left: 1px solid black; 
+    height: 50px; 
+    position:static; 
+    left: 50%; 
+} 
+body {
+background-color: white;
+}
+.feather {
+width: 16px;
+height: 16px;
+vertical-align: text-bottom;
+}
+
+/*--------------------------------------------------------------------------------*/
