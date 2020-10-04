@@ -1,19 +1,33 @@
+
 /*text center*/
 
 /*div center*/
+
 
 #p1 {background-color:#ff0000;}
 #p2 {background-color:#00FFFF;}
 
 .navbar-custom { 
-            background-color: #87CEEB; 
+            background-color: #87CEEB;
         } 
         /* Modify brand and text color */ 
           
         .navbar-custom .navbar-brand, 
         .navbar-custom .navbar-text { 
             color: white; 
+
         }
+
+        .navbar-custom2 { 
+          background-color: white;
+      } 
+      /* Modify brand and text color */ 
+        
+      .navbar-custom .navbar-brand, 
+      .navbar-custom .navbar-text { 
+          color: white; 
+
+      }
 
 .vertical { 
             border-left: 1px solid black; 
@@ -23,7 +37,9 @@
         } 
   body {
     background-color: white;
-  }
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#FFFAFA;
+  }/*warna background*/
   .feather {
     width: 16px;
     height: 16px;
@@ -86,14 +102,16 @@
       */
       margin-right: 500;
     }
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-body {font-family: Arial, Helvetica, sans-serif;}
+
+/*============================================================*/
+
+
 /*form {border: 3px solid #f1f1f1;}*/
 
 input[type=text1], input[type=password] {
-  width: 50%;
+  width: 100%;
   padding: 12px 20px;
-  margin: 8px 280px;
+  margin: auto;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
@@ -103,10 +121,10 @@ input[type=text1], input[type=password] {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
-  margin: 8px 280px;
+  margin: 20px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
 }
 
 .btn1:hover {
@@ -116,7 +134,7 @@ input[type=text1], input[type=password] {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
+  background-color: #87CEEB;
   margin-left: 0px;
 }/*cancel button background*/
 
@@ -132,6 +150,7 @@ img.avatar {
 
 .container {
   padding: 16px;
+  
 }
 
 span.psw {
@@ -179,13 +198,12 @@ span.psw {
 
 .c{
   text-align: center;
-  margin: 0px 0px 0px 280px;
+  
   
 }
 
 .d{
   text-align: center;
-  margin: 0px 0px 0px 280px;
   
 }
 
@@ -206,8 +224,10 @@ span.psw {
   padding: 20px 18px;
 }
 .imgtrycenter{
-  margin-left: 472px;
-  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
 .h5textsize{
   text-align: center;
@@ -218,10 +238,10 @@ span.psw {
   background-color:#3b5998;
   color: white;
   padding: 14px 20px;
-  margin: 8px 280px;
+  margin: auto;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
 }
 
 .btn2:hover {
@@ -232,10 +252,11 @@ span.psw {
   background-color:#c71610;
   color: white;
   padding: 14px 20px;
-  margin: 8px 280px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
 }
 
 .btn3:hover {
@@ -425,3 +446,16 @@ span.psw {
         width: 100%;
       }
     } 
+
+    .border-size{
+      width:500px;
+  margin: auto;
+  /*border: 3px solid #A9A9A9;
+  opacity: 0.2;*/
+    }/*warna background*/
+    div.x1{
+    width:467px;
+  margin: auto;
+  /*border: 3px solid #73AD21;*/
+  padding: 16px;
+    }
