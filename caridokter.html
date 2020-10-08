@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Administrator</title>
+  <title>Cari Dokter</title>
   
   <!-- CSS Bootscrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -34,9 +34,9 @@
 <body>
     <!-- Bar Atas -->
     <nav class="navbar-expand-lg navbar-light bg-light border rounded"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button>-->
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -131,8 +131,8 @@
                 <div class="hero-content">
                     <div class="hero-content-inner">
 
-                <form class="form-inline waves-light px-5"style="width: 100%;"mdbRippleRadius><!--width=ukuran bar-->
-                    <input class="form-control ml-5"style="width: 90%;"type="text"placeholder="Cari Dokter, Rumah Sakit, Spesialis, dll.">
+                <form class="form-inline waves-light px-5 bsearch"style="width: 68.5%;"mdbRippleRadius><!--width=ukuran bar-->
+                    <input class="form-control ml-5"style="width: 82.8%;"type="text"placeholder="Cari Dokter, Rumah Sakit, Spesialis, dll.">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
                       <i data-feather="search"></i>
                       
@@ -140,8 +140,9 @@
                     <span class="psw"><a href="">Home</a> > Cari dokter</span>
                     </form>
                     
-    <nav class="navbar-expand-lg navbar-custom2 mt-5 border-size">
-<br><br><br>
+<div id="example1">  
+
+    <br><br><br>
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Dokter</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Fasilitas</button>
@@ -165,7 +166,6 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
 
-
 </div>
 <br>
   <hr>
@@ -185,6 +185,23 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
 
+</div>
+<br>
+  <hr>
+  <br>
+  </div>
+
+  <div class="col-sm"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+    <div class="row"><!-- row untuk gambar -->
+      <div><!--no col-sm-->
+  <img src="img/dokterprofil1.png" width="125" height="125">
+  </div>
+  <div class="col-sm text-left">
+    <h5>dr. Abcdefghijklmn</h5>
+    <h5 class="sm">Dokter Umum</h5>
+  </div>
+  
+  <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
 
 </div>
 <br>
@@ -204,7 +221,6 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
 
-
 </div>
 <br>
   <hr>
@@ -222,26 +238,6 @@
   </div>
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
-
-
-</div>
-<br>
-  <hr>
-  <br>
-  </div>
-
-  <div class="col-sm"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
-    <div class="row"><!-- row untuk gambar -->
-      <div><!--no col-sm-->
-  <img src="img/dokterprofil1.png" width="125" height="125">
-  </div>
-  <div class="col-sm text-left">
-    <h5>dr. Abcdefghijklmn</h5>
-    <h5 class="sm">Dokter Umum</h5>
-  </div>
-  
-  <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
-
 
 </div>
 <br>
@@ -267,7 +263,6 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Pilih Lokasi</button>
 
-
 </div>
 <br>
   <hr>
@@ -287,6 +282,23 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Pilih Lokasi</button>
 
+</div>
+<br>
+  <hr>
+  <br>
+  </div>
+
+  <div class="col-sm"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+    <div class="row"><!-- row untuk gambar -->
+      <div><!--no col-sm-->
+        <img src="img/hospital.png" width="125" height="125">
+      </div>
+      <div class="col-sm text-left">
+        <h5>RS Abcdefghijklmn</h5>
+        <h5 class="sm">Jakarta Barat</h5>
+  </div>
+  
+  <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Pilih Lokasi</button>
 
 </div>
 <br>
@@ -306,7 +318,6 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Pilih Lokasi</button>
 
-
 </div>
 <br>
   <hr>
@@ -324,26 +335,6 @@
   </div>
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Pilih Lokasi</button>
-
-
-</div>
-<br>
-  <hr>
-  <br>
-  </div>
-
-  <div class="col-sm"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
-    <div class="row"><!-- row untuk gambar -->
-      <div><!--no col-sm-->
-        <img src="img/hospital.png" width="125" height="125">
-      </div>
-      <div class="col-sm text-left">
-        <h5>RS Abcdefghijklmn</h5>
-        <h5 class="sm">Jakarta Barat</h5>
-  </div>
-  
-  <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Pilih Lokasi</button>
-
 
 </div>
 <br>
@@ -369,7 +360,6 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
 
-
 </div>
 <br>
   <hr>
@@ -389,7 +379,6 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
 
-
 </div>
 <br>
   <hr>
@@ -407,7 +396,6 @@
   </div>
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
-
 
 </div>
 <br>
@@ -427,7 +415,6 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
 
-
 </div>
 <br>
   <hr>
@@ -446,17 +433,16 @@
   
   <button type="submit" class="btn btn-primary centerbtn mt-5 mb-5 mx-5">Buat Janji</button>
 
-
 </div>
 <br>
   <hr>
   <br>
   </div>
 
-
 </div><!--div spesialisasi-->
 
-</nav>
+
+</div>
 
 <script>
 function openCity(evt, cityName) {
