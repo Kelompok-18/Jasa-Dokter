@@ -155,8 +155,7 @@ img.avatar {
 
 span.psw {
   float: right;
-  padding-top: 16px;
-  margin-left: 50px;
+  padding: 16px 0px 0px 50px;/*align text block */
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -448,7 +447,7 @@ span.psw {
     } 
 
     .border-size{
-      width:1378px;
+      width:1200px;
   margin: auto;
   /*border: 3px solid #A9A9A9;
   opacity: 0.2;*/
@@ -468,10 +467,10 @@ span.psw {
   overflow: hidden;/*menu tutup tabs*/
   border: 1px solid white;
   background-color: #00FFFF;
-  width: 87%;
+  width: 80%;/*width box dokter,fasilitas,spesialisasi*/
   /*padding: 14px 20px;*/
   margin: auto;
-}
+}/*box dok,fas,spe size*/
 
 /* Style the buttons inside the tab */
 .tab button {
@@ -480,7 +479,7 @@ span.psw {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 168.9px;
+  padding: 14px 92.9px;/*tab button dokter,fasilitas,spesialisasi*/
   transition: 0.3s;/*blue to grey*/
   font-size: 17px;
 }
@@ -501,7 +500,7 @@ span.psw {
   padding: 6px 12px;
   /*border: 1px solid #ccc;*/
   border-top: none;
-  width: 86.8%;
+  width: 80%;/*block dokter*/
   margin: auto;
 }
 
@@ -516,7 +515,7 @@ span.psw {
 
 /*my edit*/
 .col-sm{
-  width: 95%;
+  width: 95%;/*box dokter*/
 }
 h5[class=sm]{
     margin: 10px 0;
@@ -529,7 +528,16 @@ h5[class=sm]{
 h5 {
   margin: 10px 0;
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: lighter;
   /*text-transform: uppercase;*/
+}
+#example1 {
+  background-color: white;
+  padding: 15px;
+  width: 70%;
+  margin: auto;
+}
+.bsearch{
+  margin: auto;
 }
