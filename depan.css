@@ -1,14 +1,16 @@
-
 /*text center*/
 
 /*div center*/
-
-
+* {
+	margin: 0;
+  padding: 0;
+  font-family:'LatoWeb';
+}
 #p1 {background-color:#ff0000;}
 #p2 {background-color:#00FFFF;}
 
 .navbar-custom { 
-            background-color: #87CEEB; 
+            background: linear-gradient(to bottom right,#255ecf 22%, #0099ff 100%)
         } 
         /* Modify brand and text color */ 
           
@@ -17,15 +19,56 @@
             color: white; 
         }
 
+  
+      /* Modify brand and text color */ 
+        
+      .navbar-custom .navbar-brand, 
+      .navbar-custom .navbar-text { 
+          color: white; 
+
+      }
 .vertical { 
             border-left: 1px solid black; 
             height: 50px; 
             position:static; 
             left: 50%; 
         } 
-  body {
+
+    body {
+      min-height: 100vh;
     background-color: white;
+    display : flex;
+    flex-direction: column;
+    width:auto;
   }
+
+  main {
+
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    /* min-height: calc(100vh - 211px - 58px); */
+  }
+
+  article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  article:last-child {
+    margin-bottom: 0;
+  }
+
+  article h3 {
+    margin: 10px 0 25px 0;
+  }
+  article p {
+    margin-top: 16px;
+    line-height: 24px;
+  }
+
   .feather {
     width: 16px;
     height: 16px;
@@ -41,10 +84,6 @@
             text-align: center;
             margin-bottom: 0;
             margin-right: 800px;
-    }
-    
-    *{
-      font-family: 'LatoWeb';
     }
     
     .hero-text {
@@ -88,3 +127,199 @@
       */
       margin-right: 500;
     }
+
+    .button {
+      border: none;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      height: 77px;
+    }
+
+    .button2 {
+      background-color: rgb(176, 209, 222);
+      color: black; 
+      border: none;
+    }
+    
+    .button2:hover {
+      background-color: rgb(126, 149, 158);
+      color: white;
+    }
+
+    .footer {
+      width: 100%;
+      background: #1c3641;
+      display: block;
+    }
+    
+    .inner-footer {
+      width: 95%;
+      margin: auto;
+      padding: 30px 10px;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      justify-content: center;
+    }
+    
+    .footer-items {
+      width: 25%;
+      padding: 10px 20px;
+      box-sizing: border-box;
+    }
+    
+    /*h1 {
+      padding: 10px 0;
+      font-size: 25px;
+      color: #fff;
+      text-transform: uppercase;
+    }*/
+    
+    .footer-items p {
+      color: grey;
+      font-size: 16px;
+      text-align: justify;
+      line-height: 25px;
+    }
+    
+    .h2footer {
+      margin: 10px 0;
+      color: grey;
+      font-size: 16px;
+      font-weight: lighter;
+      text-transform: uppercase;
+    }
+    
+    .border1 {
+      height: 2px;
+      width: 40px;
+      background: #ff9800;
+    }
+    
+    ul {
+      list-style: none;
+      color: #fff;
+      font-size: 15px;
+      letter-spacing: 0.5px;
+    }
+    
+    ul a {
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      transition: 0.3s;
+    }
+    
+    ul a:hover {
+      color: #ff9800;
+    }
+    
+    ul li {
+      margin: 10px 0;
+      height: 25px;
+    }
+    
+    li i {
+      margin-right: 20px;
+    }
+    
+    .social-media {
+      width: 100%;
+      color: #fff;
+      text-align: center;
+    }
+    
+    .social-media a {
+      text-decoration: none;
+    }
+    
+    .social-media i {
+      height: 40px;
+      width: 40px;
+      margin: 20px 5px;
+      padding: 10px;
+      color: #fff;
+      border-radius: 50%;
+      border: 1px solid grey;
+      transition: 0.3s;
+    }
+    
+    .social-media i:hover {
+      background: grey;
+    }
+    
+    .footer-bottom {
+      padding: 10px;
+      background: #3d545f;
+      color: #fff;
+      font-size: 12px;
+    }
+    
+    @media screen and (max-width: 1085px) {
+      .footer-items {
+        width: 50%;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .footer-items {
+        width: 100%;
+      }
+    }
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 50%;
+}
+
+.fa-twitter {
+  background: #1DA1F2;
+  color: white;
+  margin-left: 50%;
+}
+    
+.fa-instagram {
+   background: linear-gradient(to bottom left, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #F56040, #F77737, #FCAF45, #FFDC80);
+   color: white;
+   margin-left: 50%;
+}
+    
+.fa-google-plus {
+   background: #db4a39;
+   color: white;
+   margin-left: 50%;
+}
+/*h1,2,3,4,5,6 box chat bersama dokter, cari dokter, dll*/
+.centerh6{
+  padding: 0px 0px 0px 100px;
+}
+/*----------------------------------*/
+/*--------------------css baru--------------------*/
+.col-sm{
+  width: 75%;/*box dokter*/
+  margin: auto;
+}
+/*.vertical { 
+  border-left: 1px solid black; 
+  height: 50px; 
+  position:static; 
+  left: 50%; 
+} */
+.bordersz {
+background-color: #fff;
+border: 3px solid rgb(243, 243, 243);
+height: 350px;
+
+}
+.colorinfo{
+  color: #2ecccc;
+}
