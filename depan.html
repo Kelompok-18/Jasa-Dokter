@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Administrator</title>
+  <title>ButuhDokter</title>
   
   <!-- CSS Bootscrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -18,15 +18,17 @@
 <!-- ukuran logo/feather -->
 
 <link rel="stylesheet" href="depan.css">
+<!--Font footer-->
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 <!-- start bar atas -->
 <body>
     <!-- Bar Atas -->
     <nav class="navbar-expand-lg navbar-light bg-light border rounded"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+      </button>-->
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -99,8 +101,10 @@
             
             <div class = "vertical"></div>
 
-            <div> 
+            <div>
+              <form action="masuk.html"POST> 
             <button type="submit" class="btn btn-outline-primary ml-3">Masuk</button>
+            </form>
             </div>
 
             <div>
@@ -121,7 +125,9 @@
             <h2 class="hero-text px-5">Layanan Booking Mempermudah Masyarakat</h2>
             <form class="form-inline waves-light px-5"style="width: 100%;"mdbRippleRadius><!--width=ukuran bar-->
                 <input class="form-control ml-5"style="width: 60%;"type="text"placeholder="Cari Dokter, Rumah Sakit, Spesialis, dll.">
-                
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                  <i data-feather="search"></i>
+                  
                 </button>
                 </form>
             <!-- kotak isi -->
@@ -130,14 +136,140 @@
         </div>
         </div>
         </nav>
-            
 
         <!-- batas navbar2 -->
-<<<<<<< HEAD
-    <p>test</p>
-=======
-    
->>>>>>> 133f161b13422e399960a6377a1566d0e9605634
+        <div class="row mx-0">
+          <button class="button button2" style="width:25%"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+            <div class="row"><!-- row untuk gambar -->
+              <div>
+                <h6 class="centerh6">Chat Bersama Dokter</h6>
+              </div>
+              <div class="col-sm text-right">
+                <i style="width:20px; height:20px" data-feather="message-square"></i>
+              </div>
+            </div>
+          </button>
+
+          <button class="button button2" style="width:25%"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+            <div class="row"><!-- row untuk gambar -->
+              <div>
+                <h6 class="centerh6">Cari Dokter</h6>
+              </div>
+              <div class="col-sm text-right">
+                <i style="width:20px; height:20px" data-feather="message-square"></i>
+              </div>
+            </div>
+          </button>
+
+          <button class="button button2" style="width:25%"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+            <div class="row"><!-- row untuk gambar -->
+              <div>
+                <h6 class="centerh6">ButuhDokter Shop</h6>
+              </div>
+              <div class="col-sm text-right">
+                <i style="width:20px; height:20px" data-feather="shopping-cart"></i>
+              </div>
+            </div>
+          </button>
+
+          <button class="button button2" style="width:25%"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+            <div class="row"><!-- row untuk gambar -->
+              <div>
+                <h6 class="centerh6">Review Dokter</h6>
+              </div>
+              <div class="col-sm text-right">
+                <i style="width:20px; height:20px" data-feather="smile"></i>
+              </div>
+            </div>
+          </button>
+        </div>
+
+        
+        <main>
+          <article>
+            
+            <div class="col-sm"><!-- kolom 1(border=garis kotak(px,py berfungsi untuk membuat spasi pada tulisan customer)) -->
+              <h2 class="colorinfo"><b>Info Kesehatan</b></h2>
+            <br>
+              <div class="row bordersz px-5"><!-- row untuk gambar -->
+                <div><!--no col-sm-->
+                  <br>
+            <img src="img/pijatrefleksi.jpg" width="400" height="300">
+            </div>
+            <div class="col-sm text-left">
+              <h3><b>Metode Pengobatan Tradisional</b></h3>
+              <h5 class="colorinfo">Manfaat Pijat Refleksi Bagi Kesehatan</h5>
+              <p>Pijat merupakan salah satu cara untuk menghilangkan capek dan pegal serta nyeri</p>
+              <p>pada tubuh. Jenis pijat sendiri ada bermacam-macam. Yang paling</p>
+              <p>banyak digemari masyarakat adalah pijat...</p>
+              <a href="infokesehatan.html"><u>Baca Selengkapnya</u></a>
+              
+            </div>
+
+          </div>
+          <br>
+            <hr>
+            <br>
+            </div>
+
+          </article>
+        </main>
+      
+
+        <div class="footer">
+          <div class="inner-footer">
+      
+            <div class="footer-items">
+              <img src="img/butuhdokter3.png">
+            </div>
+      
+            <div class="footer-items">
+              <h2 class="h2footer">Site Map</h2>
+              <div class="border1"></div>
+              <ul>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Syarat & Ketentuan</li></a>
+                <a href=""><li>Tentang Kami</li></a>
+                <a href=""><li>Karir</li></a>
+                <a href=""><li>Kontak</li></a>
+              </ul>
+            </div>
+      
+            <div class="footer-items">
+              <h2 class="h2footer">Lainnya</h2>
+              <div class="border1"></div>
+              <ul>
+                <a href=""><li>Privasi</li></a>
+                <a href=""><li>Iklan</li></a>
+                <a href=""><li>Gabung Tim BUTUHDOKTER</li></a>
+                <a href=""><li>Tim Editorial</li></a>
+                <a href=""><li>Proteksi BUTUHDOKTER</li></a>
+              </ul>
+            </div>
+      
+            <div class="footer-items">
+              <h2 class="h2footer">Alamat Kami</h2>
+              <div class="border1"></div>
+              <ul>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Jl. Letjen S. Parman No.1, RT.6/RW.16.</li>
+                
+                <li><i class="fa fa-phone" aria-hidden="true"></i>1234567890</li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i>support@butuhdokter.com</li>
+              </ul>
+              <div class="social-media">
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="footer-bottom">
+            Hak Cipta &copy; BUTUHDOKTER 2020.
+          </div>
+        </div>
+
     <script src="https://unpkg.com/feather-icons"></script>
     <script>
       feather.replace()
@@ -145,7 +277,3 @@
     </body>
 
     </html>
-
-
-
-
