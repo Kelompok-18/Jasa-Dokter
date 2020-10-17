@@ -77,7 +77,7 @@
             text-align: left;
     }
     .hero-content-inner {
-            padding: 180px 0 75px 80px;/*tata letak box*/
+            padding: 80px 0 75px 80px;/*tata letak box*/
             background-repeat: no-repeat;
             background-position: bottom right;
             background-size: 550px;
@@ -118,15 +118,17 @@ input[type=text1], input[type=password] {
 }
 
 .btn1 {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #FFFAFA;
+  color: #6495ED;
   padding: 14px 20px;
   margin: 20px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 50%;
 }
-
+.border-setting{
+  border: 1px solid #6495ED;
+}
 .btn1:hover {
   opacity: 0.8;
 }
@@ -155,8 +157,7 @@ img.avatar {
 
 span.psw {
   float: right;
-  padding-top: 16px;
-  margin-right: 0px;
+  padding: 16px 0px 0px 50px;/*align text block */
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -269,7 +270,7 @@ span.psw {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-}ukuran text alamat*/
+}*/
 
 .fa:hover {
     opacity: 0.7;
@@ -413,9 +414,8 @@ span.psw {
       height: 25px;
     }
     .ul2 {/*ul li*/
-      margin: 10px 0px 0px 0px;
+      margin: 10px 0;
       height: 25px;
-      
     }
 
     li i {
@@ -467,7 +467,7 @@ span.psw {
     } 
 
     .border-size{
-      width:500px;
+      width:1200px;
   margin: auto;
   /*border: 3px solid #A9A9A9;
   opacity: 0.2;*/
@@ -478,3 +478,122 @@ span.psw {
   /*border: 3px solid #73AD21;*/
   padding: 16px;
     }
+
+/*tab files-----------------------------------------------------------------------------*/
+    body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;/*menu tutup tabs*/
+  border: 1px solid white;
+  background-color: #00FFFF;
+  width: 80%;/*width box dokter,fasilitas,spesialisasi*/
+  /*padding: 14px 20px;*/
+  margin: auto;
+}/*box dok,fas,spe size*/
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 92.9px;/*tab button dokter,fasilitas,spesialisasi*/
+  transition: 0.3s;/*blue to grey*/
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  /*border: 1px solid #ccc;*/
+  border-top: none;
+  width: 80%;/*block dokter*/
+  margin: auto;
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {color: red;}
+
+/*my edit*/
+.col-sm{
+  width: 25%;/*box dokter*/
+  /*border: 1px solid #ccc;*/
+  margin: auto;
+}
+h5[class=sm]{
+    margin: 10px 0;
+    color: grey;
+    font-size: 19px;
+    font-weight: lighter;
+    /*text-transform: uppercase;
+  */}
+
+h5{
+  margin: 10px 0;
+  color: black;
+  font-size: 25px;
+  font-weight: lighter;
+  /*text-transform: uppercase;*/
+}
+#example1 {
+  background-color: #FFFAFA;
+  padding: 15px;
+  width: 70%;
+  margin: auto;
+}
+.bsearch{
+  margin: auto;
+}
+.textcenter{
+  text-align: center;
+}
+h5[class=color]{
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #6495ED;
+  font-size: 18px;
+}
+h5[class=colors]{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
+  font-size: 15px;
+}
+.col-sm2{
+  width: 100%;/*box dokter*/
+  /*border: 1px solid #ccc;*/
+  margin: auto;
+}
+.spesialistext{
+  margin: 10px 0;
+  color: grey;
+  font-size: 15px;
+  font-weight: lighter;
+  width: 22%;
+
+  /*text-transform: uppercase;
+*/}
+h5[class=jd] {
+  margin: 10px 0;
+  color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  /*text-transform: uppercase;*/
+}

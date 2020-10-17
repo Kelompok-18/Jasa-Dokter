@@ -219,9 +219,19 @@
       color: #ff9800;
     }
     
-    ul li {
+    /*ul li {
       margin: 10px 0;
       height: 25px;
+    }*/
+
+    .ul1 {/*ul li*/
+      margin: 10px 0;
+      height: 25px;
+    }
+    .ul2 {/*ul li*/
+      margin: 10px 0px 0px 0px;
+      height: 25px;
+      
     }
     
     li i {

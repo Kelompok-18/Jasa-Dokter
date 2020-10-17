@@ -263,14 +263,14 @@ span.psw {
 .btn3:hover {
   opacity: 0.8;
 }
-.fa {
+/*.fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-}
+}*/
 
 .fa:hover {
     opacity: 0.7;
@@ -409,11 +409,11 @@ span.psw {
       color: #ff9800;
     }
 
-    ul li {
+    /*ul li {
       margin: 10px 0;
       height: 25px;
-    }
-    .ul2 {/*ul li*/
+    }*/
+    .ul1 {/*ul li*/
       margin: 10px 0;
       height: 25px;
     }
