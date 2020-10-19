@@ -103,20 +103,6 @@
       margin-right: 500;
     }
 
-.kolomalamat {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    
-    .list-footericon {
-      position: relative;
-      width: auto;
-      max-width: fit-content;
-      flex-basis: 0px;
-      -webkit-box-flex: 1;
-      flex-grow: 1;
-    }
-
 /*============================================================*/
 
 
@@ -416,10 +402,6 @@ span.psw {
       color: #fff;
       transition: 0.3s;
     }
-
-ul li {
-  margin: 10px 0;
-}
 
     ul a:hover {
       color: #ff9800;
