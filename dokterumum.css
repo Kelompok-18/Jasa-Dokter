@@ -118,17 +118,15 @@ input[type=text1], input[type=password] {
 }
 
 .btn1 {
-  background-color: #FFFAFA;
-  color: #6495ED;
+  background-color: #4CAF50;
+  color: white;
   padding: 14px 20px;
   margin: 20px 0;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
 }
-.border-setting{
-  border: 1px solid #6495ED;
-}
+
 .btn1:hover {
   opacity: 0.8;
 }
@@ -484,9 +482,9 @@ span.psw {
 
 /* Style the tab */
 .tab {
-  overflow: hidden;/*menu tutup tabs*/
-  border: 1px solid white;
-  background-color: #00FFFF;
+  /*overflow: hidden;*//*menu tutup tabs*/
+  /*border: 1px solid white;*/
+  /*background-color: #00FFFF;*/
   width: 80%;/*width box dokter,fasilitas,spesialisasi*/
   /*padding: 14px 20px;*/
   margin: auto;
@@ -535,9 +533,7 @@ span.psw {
 
 /*my edit*/
 .col-sm{
-  width: 25%;/*box dokter*/
-  /*border: 1px solid #ccc;*/
-  margin: auto;
+  width: 95%;/*box dokter*/
 }
 h5[class=sm]{
     margin: 10px 0;
@@ -547,7 +543,7 @@ h5[class=sm]{
     /*text-transform: uppercase;
   */}
 
-h5{
+h5 {
   margin: 10px 0;
   color: black;
   font-size: 25px;
@@ -555,7 +551,7 @@ h5{
   /*text-transform: uppercase;*/
 }
 #example1 {
-  background-color: #FFFAFA;
+  background-color: white;
   padding: 15px;
   width: 70%;
   margin: auto;
@@ -563,37 +559,6 @@ h5{
 .bsearch{
   margin: auto;
 }
-.textcenter{
-  text-align: center;
-}
-h5[class=color]{
-  font-family: "Arial Black", Gadget, sans-serif;
-  color: #6495ED;
-  font-size: 18px;
-}
-h5[class=colors]{
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  color: black;
-  font-size: 15px;
-}
-.col-sm2{
-  width: 100%;/*box dokter*/
-  /*border: 1px solid #ccc;*/
-  margin: auto;
-}
-.spesialistext{
-  margin: 10px 0;
-  color: grey;
-  font-size: 15px;
-  font-weight: lighter;
-  width: 22%;
-
-  /*text-transform: uppercase;
-*/}
-h5[class=jd] {
-  margin: 10px 0;
-  color: black;
-  font-size: 20px;
-  font-weight: lighter;
-  /*text-transform: uppercase;*/
+.padding{
+    padding: 0px 0px 0px 105px;
 }
