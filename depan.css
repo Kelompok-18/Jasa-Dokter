@@ -138,6 +138,7 @@
       transition-duration: 0.4s;
       cursor: pointer;
       height: 77px;
+      width: 100%;
     }
 
     .button2 {
