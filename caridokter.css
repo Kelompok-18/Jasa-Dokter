@@ -169,6 +169,20 @@ span.psw {
   }
 }
 
+.kolomalamat {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .list-footericon {
+      position: relative;
+      width: auto;
+      max-width: fit-content;
+      flex-basis: 0px;
+      -webkit-box-flex: 1;
+      flex-grow: 1;
+    }
+
 /*============================================================================*/
 .footer_left{
   text-align: center;
@@ -406,6 +420,10 @@ span.psw {
     ul a:hover {
       color: #ff9800;
     }
+
+ul li {
+  margin: 10px 0;
+}
 
     .ul1 {/*ul li*/
       margin: 10px 0;
