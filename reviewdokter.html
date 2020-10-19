@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Dokter</title>
+  
+  <!-- CSS Bootscrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- JS Bootscrap-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<!-- bootstrap table -->
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css"><!-- bootstrap css -->
+<script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script><!-- bootstrap java script -->
+<!-- ukuran logo/feather -->
+
+<link rel="stylesheet" href="reviewdokter.css">
+
+<!--facebook-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!--google-->
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+<!--feather icon social media-->
+
+
+</head>
+<!-- start bar atas -->
+<body>
+    <!-- Bar Atas -->
+    <nav class="navbar-expand-lg navbar-light bg-light border rounded"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
+      <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>-->
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i data-feather="smartphone"></i>
+              Download Butuhdokter App
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+</body>
+
+
+<body>
+    <!-- Bar Atas1 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
+            
+      <a href="depan.html"><img src="img/butuhdokter3.png"></a>
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link ml-3" href="#">
+                  
+                </a>
+              </li>
+              <form class="form-inline waves-light"style="width: 100%;"mdbRippleRadius>
+                <input class="form-control"style="width: 80%;"type="text"placeholder="Cari di Butuhdokter">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                <i data-feather="search"></i>
+                </button>
+                </form>
+            </ul>
+                
+            <ul class="navbar-nav mr-1">
+              <li class="nav-item active">
+                  <a class="nav-link" href="caridokter.html">
+                    Cari Dokter
+                  </a>
+                </li>
+          </ul>
+
+          <ul class="navbar-nav mr-1">
+              <li class="nav-item active">
+                  <a class="nav-link active" href="infokesehatan.html">
+                    Info Kesehatan
+                  </a>
+                </li>
+          </ul>
+
+          <ul class="navbar-nav mr-1">
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">
+                    Tentang Kami
+                  </a>
+              </li>
+          </ul>
+
+          <ul class="navbar-nav mr-1">
+              <li class="nav-item active">
+                  <a class="nav-link" href="hubungikami.html">
+                    Hubungi Kami
+                  </a>
+              </li>
+          </ul>
+            
+            <div class = "vertical"></div>
+
+            <div>
+              <form action="masuk.html"POST> 
+            <button type="submit" class="btn btn-outline-primary ml-3">Masuk</button>
+            </form>
+            </div>
+
+            <div>
+              <form action="daftar.html"POST>
+                <button type="submit" class="btn btn-primary ml-3">Daftar</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+
+      <div class="ha">
+        <div class="haha">
+            <h1 class="ml-2 mb-4 title">Review Dokter</h1>
+            <div class="border2 mb-5"></div>
+            <form class="form-inline waves-light bsearch"style="width: 68.5%;"mdbRippleRadius>
+                <input class="form-control ml-5"style="width: 82.8%;"type="text"placeholder="Cari Dokter">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                    <i data-feather="search"></i>          
+                </button>
+                <a class="a1" href="caridokter.html">Lihat Semua Dokter</a>
+            </form>
+
+            <div class="mt-5 baris">
+              <div class="dokter rounded">
+                <div class="infodokter">
+                  <img src="img/icon_dokter_default.png" width="77" height="77">
+                  <div class="namadokter">
+                    <h1 class ="h2o">
+                      dr. Abcdefghijklmn
+                    </h1>
+                    <h1 class ="h2p">
+                      Rating: 4.7
+                    </h1>
+                  </div>
+                </div>
+                <h1 class="mx-3 h2q">Saya sangat aktif dan dengan itu telah terjadi banyak kecelakaan. Dr Mastey menjelaskan dengan tepat apa yang salah dan bagaimana kami akan memperbaikinya. Saya dengan tulus mempercayainya, pengetahuan medisnya dan penilaiannya. Seluruh stafnya ramah dan membuat Anda merasa nyaman bahkan melalui waktu yang tidak begitu mudah.</h1>
+                <div class="rurr">
+                  <p class="ml-3 h2p">Oleh: oooo</p>
+                </div>
+              </div>
+
+              <div class="dokter rounded">
+                <div class="infodokter">
+                  <img src="img/icon_dokter_default.png" width="77" height="77">
+                  <div class="namadokter">
+                    <h1 class ="h2o">
+                      dr. Abcdefghijklmn
+                    </h1>
+                    <h1 class ="h2p">
+                      Rating: 4.7
+                    </h1>
+                  </div>
+                </div>
+                <h1 class="mx-3 h2q">Saya sangat menyukai kantor ini. Meja depan selalu ramah, Kezia luar biasa, dan Dr. Antonelli sangat perhatian. Mereka biasanya dapat membuat Anda membuat janji dengan sangat cepat jika perlu. Saya memiliki masalah yang saya hubungi kemarin dan Kezia menjawab pertanyaan saya di telepon dan kemudian Dr. Antonelli menelepon saya kembali untuk memeriksa saya hari ini. Saya tidak pernah mendapatkan perawatan yang lebih baik atau lebih pribadi dari tim perawatan kesehatan.</h1>
+                <div class="rurr">
+                  <p class="ml-3 h2p">Oleh: oooo</p>
+                </div>
+              </div>
+
+              <div class="dokter rounded">
+                <div class="infodokter">
+                  <img src="img/icon_dokter_default.png" width="77" height="77">
+                  <div class="namadokter">
+                    <h1 class ="h2o">
+                      dr. Abcdefghijklmn
+                    </h1>
+                    <h1 class ="h2p">
+                      Rating: 4.7
+                    </h1>
+                  </div>
+                </div>
+                <h1 class="mx-3 h2q">Ketika saya mengetahui saya hamil anak pertama saya, saya berharap menemukan seorang OB yang dapat saya percayai untuk memikirkan kepentingan terbaik saya. Suami saya melakukan penelitian dan menemukan Dr. Brown direkomendasikan sebagai salah satu dokter terbaik di daerah tersebut. Sepanjang masa kehamilan, Dr. Brown, Erin (bidan) dan staf sangat fenomenal! Mereka ramah, profesional, dan meluangkan waktu untuk menjawab pertanyaan apa pun yang mungkin Anda miliki.</h1>
+                <div class="rurr">
+                  <p class="ml-3 h2p">Oleh: oooo</p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="inner-footer">
+    
+          <div class="footer-items">
+            <img src="img/butuhdokter3.png">
+          </div>
+    
+          <div class="footer-items">
+            <h2 class="imdumb">SITE MAP</h2>
+            <div class="border1"></div>
+            <ul style="font-size: 15px;">
+              <a href=""><li>Home</li></a>
+              <a href=""><li>Syarat & Ketentuan</li></a>
+              <a href=""><li>Tentang Kami</li></a>
+              <a href=""><li>Karir</li></a>
+              <a href=""><li>Kontak</li></a>
+            </ul>
+          </div>
+    
+          <div class="footer-items">
+            <h2 class="imdumb">LAINNYA</h2>
+            <div class="border1"></div>
+            <ul style="font-size: 15px;">
+              <a href=""><li>Privasi</li></a>
+              <a href=""><li>Iklan</li></a>
+              <a href=""><li>Gabung Tim HALODOKTER</li></a>
+              <a href=""><li>Tim Editorial</li></a>
+              <a href=""><li>Proteksi HALODOKTER</li></a>
+            </ul>
+          </div>
+    
+          <div class="footer-items">
+            <h2 class="imdumb">ALAMAT KAMI</h2>
+            <div class="border1"></div>
+            <div class="kolomalamat">
+              <ul class="list-footericon">
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+                <li><i class="fa fa-phone" aria-hidden="true" style="margin-top: 40px;"></i></li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+              </ul>
+              <ul class="list-footericon">
+                <li>Jl. Letjen S. Parman No.1, RT.6/RW.16.</li>
+                <li style="margin-top: 25px;">1234567890</li>
+                <li>support@butuhdokter.com</li>
+              </ul>
+            </div>
+            <div class="social-media">
+              <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="footer-bottom">
+          Hak Cipta &copy; HALODOKTER 2020.
+        </div>
+      </div>
+
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+  feather.replace()
+</script>
+</body>
+
+</html>
