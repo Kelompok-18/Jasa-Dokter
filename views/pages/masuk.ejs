@@ -1,0 +1,246 @@
+    <title>Masuk Akun</title>
+    <!-- CSS Bootscrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- JS Bootscrap-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<!-- bootstrap table -->
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css"><!-- bootstrap css -->
+<script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script><!-- bootstrap java script -->
+<!-- ukuran logo/feather -->
+
+<link rel="stylesheet" href="/css/masuk.css">
+
+<!--facebook-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!--google-->
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+<!--feather icon social media-->
+
+<!-- start bar atas -->
+
+    <!-- Bar Atas -->
+    <nav class="navbar-expand-lg navbar-light bg-light border rounded"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
+      <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>-->
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i data-feather="smartphone"></i>
+              Download Butuhdokter App
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- Bar Atas1 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white"><!-- warna navbar(light,primary(biru),success(hijau)),dark(warna tulisan menjadi putih) -->
+            
+        <img src="/images/butuhdokter3.png">
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link ml-3" href="#">
+                  
+                </a>
+              </li>
+              <form class="form-inline waves-light"style="width: 100%;"mdbRippleRadius>
+                <input class="form-control"style="width: 80%;"type="text"placeholder="Cari di Butuhdokter">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                <i data-feather="search"></i>
+                </button>
+                </form>
+            </ul>
+                
+            <ul class="navbar-nav mr-1">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                      Cari Dokter
+                    </a>
+                  </li>
+            </ul>
+
+            <ul class="navbar-nav mr-1">
+                <li class="nav-item active">
+                    <a class="nav-link active" href="#">
+                      Info Kesehatan
+                    </a>
+                  </li>
+            </ul>
+
+            <ul class="navbar-nav mr-1">
+                <li class="nav-item">
+                    <a class="nav-link active" href="tentangkami.html">
+                      Tentang Kami
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mr-1">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                      Hubungi Kami
+                    </a>
+                </li>
+            </ul>
+            
+            <div class = "vertical"></div>
+
+            <div> 
+            <button type="submit" class="btn btn-outline-primary ml-3">Masuk</button>
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-primary ml-3">Daftar</button>
+            </div>
+
+        </div>
+ 
+    </nav>
+  </body>
+    <!-- batas navbar1 -->
+    
+    <body>
+<nav class="navbar-expand-lg navbar-custom2 mt-5 border-size">
+  <div class="login_box"></div>
+<form action="/masuk/masuk" method="post" >
+  <div class="container">
+    <br><img src="/images/butuhdokter3.png" class="imgtrycenter"><br>
+    <h4 class="z">Masuk Akun</h4>
+  </div>
+
+  <div class="container">
+    <label for="uname" class="c"><b>Email</b></label><br>
+    <input type="text1" placeholder="Enter Email" name="username" class="form-control" required autofocus>
+<br><br>
+    <label for="psw" class="d"><b>Password</b></label><br>
+    <input type="password" class="form-control" placeholder="Enter Password" name="password" required>
+<br><br>
+    <button type="submit" class="btn1">Masuk</button><br>
+    <% if (locals.error) { %>
+        <span class="text-danger pl-2"><%= error %></span>
+    <% } %>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Ingat Saya
+    </label>
+  </div>
+
+  <div class="x1" style="background-color:#f1f1f1">
+    
+    <button type="btn1" class="cancelbtn"><a href="depan.html">Kembali</a></button>
+    <span class="psw">Lupa <a href="#">Password?</a></span>
+  </div>
+  
+<div class="x1">
+  <hr>
+</div>
+
+<div class="container">
+  
+  <h6 class="h5textsize">atau masuk dengan</h6><br>
+   
+  <button type="submit" class="btn2">
+    <i data-feather="facebook" class="fa.facebook">
+
+    </i>
+    Facebook
+  </button><br>
+  <button type="submit" class="btn3">
+    <span class="iconify" data-icon="fe-google" data-inline="false"></span>
+    Google
+  </button><br>
+  </div>
+
+</div>
+</form>
+</nav>
+<br><br><br>
+
+
+
+
+
+<!----------------------------------------------------------------------------------->
+
+<div class="footer">
+  <div class="inner-footer">
+
+    <div class="footer-items">
+      <img src="/images/butuhdokter3.png">
+    </div>
+
+    <div class="footer-items">
+      <h2>Site Map</h2>
+      <div class="border1"></div>
+      <ul>
+        <a href=""><li class="ul1">Home</li></a>
+        <a href=""><li class="ul1">Syarat & Ketentuan</li></a>
+        <a href=""><li class="ul1">Tentang Kami</li></a>
+        <a href=""><li class="ul1">Karir</li></a>
+        <a href=""><li class="ul1">Kontak</li></a>
+      </ul>
+    </div>
+
+    <div class="footer-items">
+      <h2>Lainnya</h2>
+      <div class="border1"></div>
+      <ul>
+        <a href=""><li class="ul1">Privasi</li></a>
+        <a href=""><li class="ul1">Iklan</li></a>
+        <a href=""><li class="ul1">Gabung Tim BUTUHDOKTER</li></a>
+        <a href=""><li class="ul1">Tim Editorial</li></a>
+        <a href=""><li class="ul1">Proteksi BUTUHDOKTER</li></a>
+      </ul>
+    </div>
+
+    <div class="footer-items">
+      <h2>Alamat Kami</h2>
+      <div class="border1"></div>
+      <ul>
+        <li class="ul2"><i class="fa fa-map-marker" aria-hidden="true"></i>Jl. Letjen S. Parman No.1, RT.6/RW.16.</li>
+        <li class="ul2"><i class="fa fa-phone" aria-hidden="true"></i>1234567890</li>
+        <li class="ul2"><i class="fa fa-envelope" aria-hidden="true"></i>support@butuhdokter.com</li>
+      </ul>
+      <div class="social-media">
+        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    
+  </div>
+  <div class="footer-bottom">
+    Hak Cipta &copy; BUTUHDOKTER 2020.
+  </div>
+</div>
+
+<script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace()
+    </script>
+    </body>
+        <!-- batas navbar2 -->
+        
+    
+
+    <!--secara default isi diatas akan masuk/dipindah di body main.ejs-->
+<!--time 01:16:31 menuju main.ejs-->
+
+<!--caranya dikasih tau-->
+<!--time 01:18:05,npm run dev, coba di browser-->
