@@ -1,0 +1,21 @@
+.navbar-custom { 
+    background-color: #87CEEB;
+} 
+/* Modify brand and text color */ 
+  
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: white; 
+
+}
+
+.navbar-custom2 { 
+  background-color: white;
+} 
+/* Modify brand and text color */ 
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+  color: white; 
+
+}
