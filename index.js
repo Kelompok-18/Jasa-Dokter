@@ -53,7 +53,7 @@ app.use('/infokesehatan', infokesehatanRouter);
 app.use('/tentangkami', tentangkamiRouter);
 app.use('/hubungikami', hubungikamiRouter);
 
-app.listen(3000);//mencoba running
+app.listen( process.env.PORT || 3000);//mencoba running
 console.log('Server runs at port 3000...');
 //terminal: npm run dev->manggil script start dia di package.json tdi, dev perintah untuk jalanin nodemon
 //1
